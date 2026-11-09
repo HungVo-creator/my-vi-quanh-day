@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Hỗ trợ sự cố</title>
+    <link rel="stylesheet" href="head.css" />
+  </head>
+
+  <body
+    style="
+      background-image: url(https://cdn.dribbble.com/userupload/19964103/file/original-342dd0e2119ebab85aeee6bb652ba748.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <!-- THANH ĐIỀU HƯỚNG -->
+    <nav class="dieuhuong">
+      <div class="dieuhuong-links">
+        <a href="homecode.html">Trang chủ</a>
+        <a href="reference.html">Tham khảo</a>
+        <a href="tintuc.html" title="news">Tin tức</a>
+        <a href="hotro.html">Hỗ trợ sự cố</a>
+        <a href="taikhoan.html">Tài khoản</a>
+      </div>
+
+      <h1 class="logo">
+        <span class="tu1">Mỹ</span>
+        <span class="tu2">Vị</span>
+        <span class="tu3">Quanh</span>
+        <span class="tu4">Đây</span>
+      </h1>
+    </nav>
+
+    <main class="container">
+      <h1>Hỗ trợ sự cố và đánh giá</h1>
+
+      <form action="thank.html" method="get">
+        <section class="support-box">
+          <h2>1. Báo cáo sự cố</h2>
+
+          <label for="error">Bạn đang gặp vấn đề gì?</label>
+
+          <select name="error" id="error" required>
+            <option value="">-- Chọn loại sự cố --</option>
+            <option value="image">Không hiển thị hình ảnh</option>
+            <option value="link">Không truy cập được liên kết</option>
+            <option value="display">Lỗi giao diện website</option>
+            <option value="loading">Website tải quá chậm</option>
+            <option value="content">Thông tin không chính xác</option>
+            <option value="other">Khác</option>
+          </select>
+
+          <label for="evidence">Ảnh minh chứng sự cố:</label>
+          <input type="file" id="evidence" name="evidence" accept="image/*" />
+
+          <label for="error-description">Mô tả chi tiết sự cố:</label>
+          <textarea
+            id="error-description"
+            name="error-description"
+            placeholder="Hãy mô tả vấn đề bạn đang gặp phải..."
+          ></textarea>
+        </section>
+
+        <section class="support-box">
+          <h2>2. Đánh giá website</h2>
+
+          <label>Bạn đánh giá website bao nhiêu điểm?</label>
+
+          <div class="rating">
+            <label>
+              <input type="radio" name="rating" value="1" />
+              1 - Rất kém
+            </label>
+
+            <label>
+              <input type="radio" name="rating" value="2" />
+              2 - Kém
+            </label>
+
+            <label>
+              <input type="radio" name="rating" value="3" />
+              3 - Bình thường
+            </label>
+
+            <label>
+              <input type="radio" name="rating" value="4" />
+              4 - Tốt
+            </label>
+
+            <label>
+              <input type="radio" name="rating" value="5" />
+              5 - Rất tốt
+            </label>
+          </div>
+
+          <label>Những điểm mạnh của website:</label>
+
+          <div class="features">
+            <label>
+              <input type="checkbox" name="strengths" value="design" />
+              Giao diện đẹp
+            </label>
+
+            <label>
+              <input type="checkbox" name="strengths" value="easy" />
+              Dễ sử dụng
+            </label>
+
+            <label>
+              <input type="checkbox" name="strengths" value="content" />
+              Nội dung phong phú
+            </label>
+
+            <label>
+              <input type="checkbox" name="strengths" value="image" />
+              Hình ảnh đẹp
+            </label>
+
+            <label>
+              <input type="checkbox" name="strengths" value="speed" />
+              Tốc độ tải nhanh
+            </label>
+          </div>
+
+          <label>Những điểm yếu cần cải thiện:</label>
+
+          <div class="features">
+            <label>
+              <input type="checkbox" name="weaknesses" value="design" />
+              Giao diện khó nhìn
+            </label>
+
+            <label>
+              <input type="checkbox" name="weaknesses" value="navigation" />
+              Khó tìm kiếm thông tin
+            </label>
+
+            <label>
+              <input type="checkbox" name="weaknesses" value="content" />
+              Nội dung chưa đầy đủ
+            </label>
+
+            <label>
+              <input type="checkbox" name="weaknesses" value="image" />
+              Hình ảnh chưa phù hợp
+            </label>
+
+            <label>
+              <input type="checkbox" name="weaknesses" value="speed" />
+              Tốc độ tải chậm
+            </label>
+          </div>
+        </section>
+
+        <section class="support-box">
+          <h2>3. Lưu ý và góp ý thêm</h2>
+
+          <label for="feedback">
+            Bạn muốn website bổ sung hoặc thay đổi điều gì?
+          </label>
+
+          <textarea
+            id="feedback"
+            name="feedback"
+            placeholder="Hãy chia sẻ ý kiến, đề xuất hoặc những nội dung bạn muốn website cải thiện..."
+          ></textarea>
+
+          <label for="other-notes">Những lưu ý khác (nếu có):</label>
+
+          <textarea
+            id="other-notes"
+            name="other-notes"
+            placeholder="Nhập thêm thông tin tại đây..."
+          ></textarea>
+        </section>
+
+        <div class="form-buttons">
+          <button type="submit">Submit</button>
+
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </main>
+
+    <!-- CHÂN TRANG -->
+    <footer>
+      <p>Ẩm thực Việt Nam</p>
+    </footer>
+  </body>
+</html>

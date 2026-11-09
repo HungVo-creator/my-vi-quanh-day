@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tài khoản người dùng</title>
+    <link rel="stylesheet" href="head.css" />
+  </head>
+  <body>
+    <nav class="dieuhuong">
+      <div class="dieuhuong-links">
+        <a href="homecode.html">Trang chủ</a>
+        <a href="reference.html">Tham khảo</a>
+        <a href="tintuc.html" title="news">Tin tức</a>
+        <a href="hotro.html">Hỗ trợ sự cố</a>
+        <a href="taikhoan.html">Liên hệ</a>
+      </div>
+
+      <h1 class="logo">
+        <span class="tu1">Mỹ</span>
+        <span class="tu2">Vị</span>
+        <span class="tu3">Quanh</span>
+        <span class="tu4">Đây</span>
+      </h1>
+    </nav>
+
+    <div class="taikhoan">
+      <h1>TÀI KHOẢN NGƯỜI DÙNG</h1>
+
+      <div class="taikhoan-thongtin">
+        <h2>1. Thông tin cơ bản</h2>
+
+        <label>Tên người dùng</label>
+        <input type="text" id="username" placeholder="Nhập tên người dùng" />
+
+        <label>Mật khẩu</label>
+        <input type="password" id="password" placeholder="Nhập mật khẩu" />
+
+        <label>Bạn là</label>
+        <select id="role">
+          <option value="">-- Chọn đối tượng --</option>
+          <option>Sinh viên</option>
+          <option>Học sinh</option>
+          <option>Người đi làm</option>
+          <option>Khác</option>
+        </select>
+
+        <label>Các món ăn yêu thích</label>
+        <input
+          type="text"
+          id="food"
+          placeholder="Ví dụ: Phở, Bánh mì, Cơm tấm"
+        />
+      </div>
+
+      <div class="taikhoan-thongtin">
+        <h2>2. Thông tin liên hệ</h2>
+
+        <label>Số điện thoại</label>
+        <input type="tel" id="phone" placeholder="Nhập số điện thoại" />
+
+        <label>Gmail</label>
+        <input type="email" id="email" placeholder="Nhập Gmail" />
+
+        <label>Địa chỉ nhà</label>
+        <input type="text" id="address" placeholder="Nhập địa chỉ" />
+      </div>
+
+      <div class="taikhoan-thongtin">
+        <h2>3. Tiện ích</h2>
+
+        <div class="setting">
+          <label for="darkMode">Giao diện tối</label>
+          <input type="checkbox" id="darkMode" />
+        </div>
+
+        <div class="setting">
+          <label for="thong-bao">Bật/Tắt thông báo</label>
+          <input type="checkbox" id="thongbao" />
+        </div>
+
+        <div class="taikhoan-buttons">
+          <button type="button" onclick="login()">Đăng nhập</button>
+          <button type="button" onclick="logout()">Đăng xuất</button>
+        </div>
+
+        <p id="message"></p>
+      </div>
+    </div>
+
+    <script src="taikhoan.js"></script>
+    <footer>
+      <p>Khám phá ẩm thực Việt Nam</p>
+    </footer>
+  </body>
+</html>
