@@ -332,8 +332,8 @@ p {
 }
 
 .buoitrua-the {
-  width: 1550px;
-  height: 450px;
+  width: 1400px;
+  height: 400px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -351,8 +351,8 @@ p {
 }
 
 .buoitrua-the img {
-  width: 310px;
-  height: 390px;
+  width: 260px;
+  height: 320px;
   object-fit: cover;
   border: 2px solid #e7ece5;
   border-radius: 10px;
@@ -518,7 +518,7 @@ p {
 }
 
 .buoisang-the {
-  width: 1550px;
+  width: 1400px;
   height: 450px;
   display: flex;
   align-items: center;
@@ -526,13 +526,14 @@ p {
   color: white;
   padding: 12px;
   border: 3px solid #311e1e;
+  border-radius: 10px;
   margin-bottom: 50px;
   background: radial-gradient(circle, rgb(4, 6, 6), rgba(241, 240, 238, 0.929));
 }
 
 .buoisang-the img {
-  width: 310px;
-  height: 390px;
+  width: 280px;
+  height: 350px;
   object-fit: cover;
   border: 2px solid #faf1f1;
   border-radius: 10px;
