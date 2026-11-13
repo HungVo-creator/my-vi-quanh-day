@@ -119,8 +119,9 @@ h1 {
   margin: 10px;
   padding: 10px 10px 50px 10px;
   border: 2px ridge #f6e8e8;
-  background-color: #e8faa4d0;
+  background-color: #4d5058fd;
   border-radius: 9px;
+  color: white;
 }
 
 .phobien-the {
@@ -128,11 +129,12 @@ h1 {
   background: linear-gradient(to left, #800505, #030d1b);
   padding: 20px 10px 20px 10px;
   margin-bottom: 85px;
-  gap: 25px;
+  gap: 10px;
   border: 1px solid #0c0b0b;
   border-radius: 10px;
 }
 .phobien-the h3 {
+  font-size: 22px;
   margin-bottom: 10px;
   border: 4px outset #e60303;
   background-color: #ea5454;
@@ -142,13 +144,15 @@ h1 {
 }
 
 .phobien-the img {
-  width: 250px;
-  height: 210px;
+  margin: 6px;
+  width: 320px;
+  height: 380px;
   object-fit: cover;
-  border: 1px solid #131010;
+  border: 1px solid #e4d6d6;
+  border-radius: 10px;
 }
 
-.phobien-list p {
+.phobien-the p {
   border: 4px groove #f6e8e8;
   background: linear-gradient(to left, #7babdb, #c5ec9e);
   color: #0b0b0b;
@@ -156,6 +160,7 @@ h1 {
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
   padding: 5px;
+  font-size: 17px;
 }
 
 #phobien h1 {
