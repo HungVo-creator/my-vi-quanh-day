@@ -7,7 +7,7 @@
 body {
   font-family: Arial;
   background-attachment: fixed;
-  background-image: url("https://images.pexels.com/photos/2824173/pexels-photo-2824173.jpeg?cs=srgb&dl=pexels-scottwebb-2824173.jpg&fm=jpg");
+  background-image: url("https://dongtamshop.com/wp-content/uploads/2026/06/3060DATANLA001-F6A-scaled.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: repeat-y;
@@ -68,8 +68,8 @@ section {
 .codetrungtam h1 {
   color: red;
   width: fit-content;
-  background-color: #706464;
-  padding: 15px;
+  background-color: #533b3b;
+  padding: 20px;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 15px;
   margin-left: auto;
@@ -96,7 +96,7 @@ h1 {
 }
 .trungbay .the {
   width: 32%;
-  background: linear-gradient(to top, #e78829f5, #b51b06);
+  background: linear-gradient(to top, #fa4646d9, #d88a03);
   padding: 15px;
   color: rgb(0, 0, 0);
   border: 1px solid #fffafa;
@@ -114,14 +114,18 @@ h1 {
 .the h3 {
   margin: 10px;
   text-align: center;
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
 }
 .the p {
   margin: 10px;
   padding: 10px 10px 50px 10px;
   border: 2px ridge #f6e8e8;
-  background-color: #4d5058fd;
+  background-color: #fefeffaa;
   border-radius: 9px;
-  color: white;
+  color: rgb(10, 8, 8);
+  font-size: 20px;
 }
 
 .phobien-the {
@@ -203,7 +207,7 @@ footer p {
   margin: 30px auto;
 }
 .restaurant {
-  background-color: rgba(237, 116, 116, 0.873);
+  background-color: rgba(38, 76, 78, 0.692);
   padding: 15px;
   margin-bottom: 25px;
   color: white;
@@ -251,8 +255,9 @@ footer p {
 .codetrungtam2 h1 {
   color: red;
   width: fit-content;
-  background-color: #706464;
+  background-color: #fdfcfc;
   padding: 10px;
+  border-radius: 10px;
   border: 1px solid rgb(0, 0, 0);
   margin-left: auto;
   margin-right: auto;
@@ -261,7 +266,7 @@ footer p {
   text-shadow:
     2px 2px 0 #acc725,
     3px 3px 0 #c4f307,
-    4px 4px 0 #9f1239,
+    4px 4px 0 #0b3d3e,
     5px 5px 10px rgb(233, 4, 4);
 }
 
@@ -289,7 +294,7 @@ footer p {
   display: flex;
   align-items: center;
   gap: 20px;
-  background: rgba(12, 0, 0, 0.838);
+  background: rgba(0, 0, 0, 0.838);
   padding: 10px;
   margin-right: 200px;
   margin-left: 250px;

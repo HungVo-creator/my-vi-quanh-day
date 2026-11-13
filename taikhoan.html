@@ -37,11 +37,24 @@
         <label>Bạn là</label>
         <select id="role">
           <option value="">-- Chọn đối tượng --</option>
+          <option>Trẻ em</option>
+          <option>Phụ huynh</option>
           <option>Sinh viên</option>
           <option>Học sinh</option>
           <option>Người đi làm</option>
-          <option>Khác</option>
+          <option>Người cao tuổi</option>
+          <option>Khác....</option>
         </select>
+
+        <label for="tuoi">Tuổi:</label>
+        <input
+          type="number"
+          id="tuoi"
+          name="tuoi"
+          min="1"
+          max="120"
+          placeholder="Nhập tuổi của bạn"
+        />
 
         <label>Các món ăn yêu thích</label>
         <input
