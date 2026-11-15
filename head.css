@@ -838,3 +838,46 @@ button:active {
   color: white;
   border-color: #777;
 }
+.gioithieu-button {
+  display: block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #264c4e;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.gioithieu-button:hover {
+  background-color: #416f70;
+}
+
+/* TRANG GIỚI THIỆU */
+.gioithieu {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.gioithieu h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.gioithieu section {
+  margin-bottom: 25px;
+}
+
+.gioithieu h2 {
+  margin-bottom: 10px;
+  color: #264c4e;
+}
+
+.gioithieu p {
+  font-size: 17px;
+  line-height: 1.7;
+}
