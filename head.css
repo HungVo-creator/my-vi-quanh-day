@@ -35,7 +35,7 @@ body {
   background-color: rgb(0, 0, 0);
   text-decoration: none;
   border: 9px double rgb(141, 141, 138);
-  padding: 10px 25px;
+  padding: 15px 25px;
   margin: 0;
   font-size: 20px;
   border-radius: 30px 30px 0px 30px;
@@ -59,6 +59,30 @@ body {
 .codetrungtam {
   width: 90%;
   margin: 30px auto;
+}
+
+.home-banner {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 25px;
+  border: 2px solid white;
+  border-radius: 12px;
+  overflow: hidden;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .home-banner {
+    height: 200px;
+  }
 }
 
 section {
@@ -130,20 +154,21 @@ h1 {
 
 .phobien-the {
   display: flex;
-  background: linear-gradient(to left, #800505, #030d1b);
+  background: linear-gradient(to left, #a90000, #f0ad06);
   padding: 20px 10px 20px 10px;
   margin-bottom: 85px;
   gap: 10px;
-  border: 1px solid #0c0b0b;
+  border: 3px solid #cbc3c3;
   border-radius: 10px;
 }
 .phobien-the h3 {
   font-size: 22px;
   margin-bottom: 10px;
-  border: 4px outset #e60303;
-  background-color: #ea5454;
+  border: 3px outset #140c12;
+  background-color: #f3f0f0;
   width: fit-content;
-  padding: 0px 6px;
+  padding: 3px 10px;
+  border-radius: 5px;
   margin: 0px 0px 0px 50px;
 }
 
@@ -158,7 +183,7 @@ h1 {
 
 .phobien-the p {
   border: 4px groove #f6e8e8;
-  background: linear-gradient(to left, #7babdb, #c5ec9e);
+  background: linear-gradient(to left, #bdd8ef, #ddffba);
   color: #0b0b0b;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
@@ -213,15 +238,23 @@ footer p {
   color: white;
   border-radius: 10px;
   border: 1px groove white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .restaurant-images {
   display: flex;
   gap: 10px;
+  width: 100%;
 }
 
 .restaurant-images img {
-  width: 120%;
+  flex: 1;
+  width: 100%;
+  min-width: 0;
   height: 250px;
   object-fit: cover;
   border: 1px solid rgb(220, 209, 216);
@@ -233,24 +266,51 @@ footer p {
 }
 .restaurant a {
   color: white;
-  margin-left: 1160px;
-  padding: 4px;
-  border: 1px groove black;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-right: 30px;
+  padding: 5px;
+  border: 1px groove rgb(229, 223, 223);
   background-color: #030d1b;
   text-decoration: none;
 }
 .restaurant a:hover {
   background-color: rgb(159, 159, 206);
   color: rgb(255, 240, 240);
+  border: 1px inset black;
 }
 .restaurant a:active {
   color: rgb(226, 223, 223);
   background-color: black;
+  border: 1px ridge rgb(201, 182, 182);
 }
 
 .restaurant p {
   margin-top: 10px;
   font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .restaurant {
+    padding: 10px;
+  }
+
+  .restaurant-images {
+    flex-direction: column;
+  }
+
+  .restaurant-images img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .restaurant h3 {
+    margin-left: 0;
+  }
+
+  .restaurant a {
+    margin-right: 0;
+  }
 }
 .codetrungtam2 h1 {
   color: red;
@@ -636,13 +696,10 @@ p {
 }
 
 .logo {
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
   background-color: #f5f5f5;
   border-radius: 20px;
   padding: 5px 10px;
-  background: linear-gradient(to right, #211d1d7b, #00000050);
+  background: linear-gradient(to right, #211d1dcf, #00000068);
   margin: 0px 50px 0px 0px;
 }
 .tu1 {
@@ -667,7 +724,7 @@ p {
     Arial, sans-serif;
 }
 .tu4 {
-  color: rgb(0, 12, 246);
+  color: rgb(55, 182, 255);
   font-size: 60px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
